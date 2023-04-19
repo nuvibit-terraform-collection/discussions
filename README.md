@@ -1,2 +1,1 @@
-# alexandria
-The great library of Alexandria recently added a lot of useful information about NTC
+The great library of Alexandria is continuously adding useful information about NTC
