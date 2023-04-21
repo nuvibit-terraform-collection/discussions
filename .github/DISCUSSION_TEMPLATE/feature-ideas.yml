@@ -7,7 +7,7 @@ body:
       description: "What should be improved or added? Describe what the new feature is addressing and what it should offer"
       value: |
         XXX is a feature/service that...
-        \n
+        
         XXX should offer
         * 
         *
