@@ -1,4 +1,4 @@
-title: "[INSERT_FEATURE_NAME] add support to ..."
+title: ":bulb: [INSERT_FEATURE_NAME] add support to ..."
 labels: ["enhancement"]
 body:
   - type: textarea
