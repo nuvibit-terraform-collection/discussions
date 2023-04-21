@@ -12,7 +12,6 @@ body:
         * 
         *
         *
-        ...
   - type: textarea
     attributes:
       label: Example
@@ -22,15 +21,11 @@ body:
         data "aws_caller_identity" "current" {}
         ```
         https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/XXX
-      render: bash
-    validations:
-      required: true
   - type: textarea
     attributes:
       label: Relates To
       description: "Include link to NTC module (if related and exists)"
       value: |
-        ## Relates To
         terraform-aws-ntc-XXX
   - type: textarea
     attributes:
@@ -40,7 +35,6 @@ body:
         *
         *
         *
-        ...
   - type: textarea
     attributes:
       label: References
@@ -49,4 +43,3 @@ body:
         *
         *
         *
-        ...
