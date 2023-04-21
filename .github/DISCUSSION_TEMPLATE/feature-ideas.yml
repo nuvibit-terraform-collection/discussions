@@ -1,0 +1,54 @@
+title: "[SERVICE NAME] add support to ..."
+labels: ["enhancements"]
+body:
+  - type: markdown
+    attributes:
+      label: Description
+      description: "What should be improved or added? Describe what the new feature is addressing and what it should offer"
+      value: |
+        XXX is a feature/service that...
+
+        XXX should offer
+        * 
+        *
+        *
+        ...
+  - type: markdown
+    attributes:
+      label: Example
+      description: "Include an example like a terraform or markdown snippet"
+      value: |
+        ```terraform
+        data "aws_caller_identity" "current" {}
+        ```
+        https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/XXX
+      render: bash
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      label: Relates To
+      description: "Include link to NTC module (if related and exists)"
+      value: |
+        ## Relates To
+        terraform-aws-ntc-XXX
+  - type: markdown
+    attributes:
+      label: Important Factoids
+      description: "Include known limitations or dependencies that need to be considered"
+      value: |
+        ## Important Factoids
+        *
+        *
+        *
+        ...
+  - type: markdown
+    attributes:
+      label: References
+      description: "Include links to documentation"
+      value: |
+        ## References
+        *
+        *
+        *
+        ...
