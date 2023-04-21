@@ -1,4 +1,4 @@
-title: ":bug: | INSERT_BUG_NAME | ..."
+title: "🐛 [INSERT_BUG_NAME] ..."
 labels: ["bug"]
 body:
   - type: input
