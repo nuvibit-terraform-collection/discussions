@@ -10,8 +10,8 @@ body:
         
         XXX should offer
         * 
-        *
-        *
+        * 
+        * 
   - type: textarea
     attributes:
       label: Example
@@ -32,14 +32,14 @@ body:
       label: Important Factoids
       description: "Include known limitations or dependencies that need to be considered"
       value: |
-        *
-        *
-        *
+        * 
+        * 
+        * 
   - type: textarea
     attributes:
       label: References
       description: "Include links to documentation"
       value: |
-        *
-        *
-        *
+        * 
+        * 
+        * 
