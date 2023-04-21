@@ -1,0 +1,73 @@
+title: "[INSERT_BUG_NAME] ..."
+labels: ["bug"]
+body:
+  - type: input
+    id: terraform-version
+    attributes:
+      label: Terraform Version
+      description: "Which Terraform version was used when the error occurred?"
+      placeholder: "Example: 1.3.9"
+    validations:
+      required: true
+  - type: input
+    id: terraform-provider
+    attributes:
+      label: Terraform Provider Version
+      description: "Which Terraform Provider version was used when the error occurred?"
+      placeholder: "Example: 4.63.0"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Affected Resource(s)
+      description: "Which resource(s) are causing the error message?"
+      value: |
+        * 
+        * 
+        * 
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: "What is the expected behavior?"
+  - type: textarea
+    attributes:
+      label: Actual Behavior
+      description: "What is the actual behavior?"
+  - type: textarea
+    attributes:
+      label: Relevant Error/Panic Output Snippet
+      description: "Insert copy of error message snippet"
+      value: |
+        ```terraform
+        Error: Missing required argument
+        ```
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: "Can this error be reproduced and how?"
+      value: |
+        * 
+        * 
+        * 
+  - type: textarea
+    attributes:
+      label: Important Factoids
+      description: "Include known limitations or dependencies that need to be considered"
+      value: |
+        * 
+        * 
+        * 
+  - type: textarea
+    attributes:
+      label: References
+      description: "Include links to documentation"
+      value: |
+        * 
+        * 
+        * 
+  - type: textarea
+    attributes:
+      label: Recommended Solution
+      description: "Include a recommended solution if known"
+      value: |
+        None
