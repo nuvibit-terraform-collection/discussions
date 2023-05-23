@@ -1,4 +1,4 @@
-# The Library of Alexandria - Nuvibit Terraform Collection Wiki
+# Nuvibit Terraform Collection Wiki
 
 Welcome to the Library of Alexandria!
 
